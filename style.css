@@ -1,0 +1,67 @@
+body {
+    margin: 50px;
+
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.8)
+        ),
+        url("이미지/silla1.jpg") center / cover fixed;
+
+    min-height: 100vh;
+}
+
+.page-wrap { 
+width: min(1100px, 92%); 
+margin: 40px auto; 
+background: rgba(255, 255, 255, 0.96); 
+border-radius: 18px; 
+box-shadow: 0 18px 50px rgba(29, 52, 82, 0.2); overflow: hidden; 
+}
+
+.navigation { 
+display: flex; 
+justify-content: center; 
+padding: 30px; 
+background: #225599; 
+border-bottom: 4px solid #ffff66; 
+text-align: center; 
+}
+
+.navigation a { 
+display: inline-block; 
+padding: 0px 20px; 
+color: #ffffff; 
+font-size: 14px; 
+font-weight: bold; 
+letter-spacing: 1px; 
+text-decoration: none; 
+}
+
+.navigation a:hover { 
+color: #36f; 
+background: #ffcc99; 
+text-decoration: none; 
+}
+
+.navigation a:active { 
+color: #ffffff; 
+background: #b72 
+}
+
+.content { 
+width: min(900px, 88%); 
+margin: 0 auto; 
+padding: 55px 20px 65px; 
+text-align: center; 
+}
+
+.copyright { 
+padding: 22px 20px; 
+border-top: 1px solid rgba(255, 255, 255, 0.12); 
+background: #225; 
+color: #999; 
+font-size: 13px; 
+text-align: center; 
+letter-spacing: 1px 
+}
