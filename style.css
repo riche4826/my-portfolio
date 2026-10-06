@@ -6,7 +6,7 @@ body {
             rgba(255, 255, 255, 0.1),
             rgba(255, 255, 255, 0.8)
         ),
-        url("이미지/silla1.jpg") center / cover fixed;
+        url("image/silla1.jpg") center / cover fixed;
 
     min-height: 100vh;
 }
